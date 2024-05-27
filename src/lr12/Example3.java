@@ -8,8 +8,6 @@ public class Example3 {
         Thread oddThread = new OddThread();
         oddThread.start();
     }
-
-
 }
 
 class EvenThread extends Thread {
